@@ -1,0 +1,1301 @@
+<treebank>
+    
+    <sentence id="9"
+             document_id="urn:cts:greekLit:tlg0032.tlg001.perseus-grc1"
+             subdoc="1.1.5"
+             span="Xenophon Hellenica Book 1: s-9"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.4167">
+      <word id="1"
+            form="καὶ"
+            lemma="καί"
+            postag="d--------"
+            relation="AuxY"
+            head="11"
+            cite="Xenophon Hellenica Book 1: s-9 w-1"
+            Subtree="1"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="1"
+            Relation_Subtree="Leaf.AuxY"
+            POS_Subtree="Leaf.d"
+            Rel_Pos_Subtree="Leaf.AuxY-d">
+         <pos>adverb</pos>
+      </word>
+      <word id="2"
+            form="τὰ"
+            lemma="ὁ"
+            postag="l-p---na-"
+            relation="ADV"
+            head="4"
+            cite="Xenophon Hellenica Book 1: s-9 w-2"
+            Subtree="2"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="2"
+            Neighborhood="2"
+            Relation_Subtree="Leaf.ADV"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ADV-l">
+         <pos>article</pos>
+         <gender>neuter</gender>
+         <case>accusative</case>
+      </word>
+      <word id="3"
+            form="μὲν"
+            lemma="μέν"
+            postag="d--------"
+            relation="AuxY"
+            head="7"
+            cite="Xenophon Hellenica Book 1: s-9 w-3"
+            Subtree="3"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="3"
+            Neighborhood="3"
+            Relation_Subtree="Leaf.AuxY"
+            POS_Subtree="Leaf.d"
+            Rel_Pos_Subtree="Leaf.AuxY-d">
+         <pos>adverb</pos>
+      </word>
+      <word id="4"
+            form="νικώντων"
+            lemma="νικάω"
+            postag="v-pppamg-"
+            relation="ADV_CO"
+            head="7"
+            cite="Xenophon Hellenica Book 1: s-9 w-4"
+            Subtree="4 2"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="2"
+            Neighborhood="4 2"
+            Relation_Subtree="ADV-Self.ADV_CO"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="ADV-l-Self.ADV_CO-v">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>present</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="5"
+            form=","
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxX"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-9 w-5"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+      <word id="6"
+            form="τὰ"
+            lemma="ὁ"
+            postag="l-p---na-"
+            relation="ADV"
+            head="8"
+            cite="Xenophon Hellenica Book 1: s-9 w-6"
+            Subtree="6"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="2"
+            Neighborhood="6"
+            Relation_Subtree="Leaf.ADV"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ADV-l">
+         <pos>article</pos>
+         <gender>neuter</gender>
+         <case>accusative</case>
+      </word>
+      <word id="7"
+            form="δὲ"
+            lemma="δέ"
+            postag="c--------"
+            relation="COORD"
+            head="11"
+            cite="Xenophon Hellenica Book 1: s-9 w-7"
+            Subtree="7 3 4 8 2 6"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="3"
+            Neighborhood="7 3 4 8"
+            Relation_Subtree="AuxY-ADV_CO-Self.COORD-ADV_CO"
+            POS_Subtree="c-NA-Self.c"
+            Rel_Pos_Subtree="AuxY-d-ADV_CO-v-Self.COORD-c-ADV_CO-v">
+         <pos>conjunction</pos>
+      </word>
+      <word id="8"
+            form="νικωμένων"
+            lemma="νικάω"
+            postag="v-pppemg-"
+            relation="ADV_CO"
+            head="7"
+            cite="Xenophon Hellenica Book 1: s-9 w-8"
+            Subtree="8 6"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="-1"
+            Neighborhood="8 6"
+            Relation_Subtree="ADV-Self.ADV_CO"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="ADV-l-Self.ADV_CO-v">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>present</tense>
+         <mood>participle</mood>
+         <voice>deponent</voice>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="9"
+            form=","
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxX"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-9 w-9"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+      <word id="10"
+            form="Ἀλκιβιάδης"
+            lemma="Ἀλκιβιάδης"
+            postag="n-s---mn-"
+            relation="SBJ"
+            head="11"
+            cite="Xenophon Hellenica Book 1: s-9 w-10"
+            Subtree="10"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="10"
+            Relation_Subtree="Leaf.SBJ"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.SBJ-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>nominative</case>
+      </word>
+      <word id="11"
+            form="ἐπεισπλεῖ"
+            lemma="ἐπεισπλέω"
+            postag="v3spia---"
+            relation="PRED"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-9 w-11"
+            Subtree="11 1 7 10 15 3 4 8 14 2 6 13 12"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="11 1 7 10 15"
+            Relation_Subtree="AuxY-COORD-SBJ-Self.PRED-ADV"
+            POS_Subtree="v-NA-NA-Self.v"
+            Rel_Pos_Subtree="AuxY-d-COORD-c-SBJ-n-Self.PRED-v-ADV-n">
+         <pos>verb</pos>
+         <person>third</person>
+         <number>singular</number>
+         <tense>present</tense>
+         <mood>indicative</mood>
+         <voice>active</voice>
+      </word>
+      <word id="12"
+            form="δυοῖν"
+            lemma="δύο"
+            postag="a-d---fd_"
+            relation="OBJ"
+            head="13"
+            cite="Xenophon Hellenica Book 1: s-9 w-12"
+            Subtree="12"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="12"
+            Relation_Subtree="Leaf.OBJ"
+            POS_Subtree="Leaf.a"
+            Rel_Pos_Subtree="Leaf.OBJ-a">
+         <pos>adjective</pos>
+         <gender>feminine</gender>
+         <case>dative</case>
+      </word>
+      <word id="13"
+            form="δεούσαις"
+            lemma="δέω2"
+            postag="v-pppafd-"
+            relation="ATR"
+            head="14"
+            cite="Xenophon Hellenica Book 1: s-9 w-13"
+            Subtree="13 12"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="13 12"
+            Relation_Subtree="OBJ-Self.ATR"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="OBJ-a-Self.ATR-v">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>present</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>feminine</gender>
+         <case>dative</case>
+      </word>
+      <word id="14"
+            form="εἴκοσι"
+            lemma="εἴκοσι"
+            postag="a-_---___"
+            relation="ATR"
+            head="15"
+            cite="Xenophon Hellenica Book 1: s-9 w-14"
+            Subtree="14 13 12"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="14 13"
+            Relation_Subtree="ATR-Self.ATR"
+            POS_Subtree="a-Self.a"
+            Rel_Pos_Subtree="ATR-v-Self.ATR-a">
+         <pos>adjective</pos>
+      </word>
+      <word id="15"
+            form="ναυσίν"
+            lemma="ναῦς"
+            postag="n-p---fd-"
+            relation="ADV"
+            head="11"
+            cite="Xenophon Hellenica Book 1: s-9 w-15"
+            Subtree="15 14 13 12"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-4"
+            Neighborhood="15 14"
+            Relation_Subtree="ATR-Self.ADV"
+            POS_Subtree="n-Self.n"
+            Rel_Pos_Subtree="ATR-a-Self.ADV-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>dative</case>
+      </word>
+      <word id="16"
+            form="."
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxK"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-9 w-16"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+   </sentence>
+   <sentence id="18"
+             document_id="urn:cts:greekLit:tlg0032.tlg001.perseus-grc1"
+             subdoc="1.1.10"
+             span="Xenophon Hellenica Book 1: s-18"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.3333">
+      <word id="1"
+            form="ἡμέραις"
+            lemma="ἡμέρα"
+            postag="n-p---fd-"
+            relation="ADV"
+            head="4"
+            cite="Xenophon Hellenica Book 1: s-18 w-1"
+            Subtree="1 3"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="3"
+            Neighborhood="1 3"
+            Relation_Subtree="Self.ADV-ATR"
+            POS_Subtree="Self.n"
+            Rel_Pos_Subtree="Self.ADV-n-ATR-a">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>dative</case>
+      </word>
+      <word id="2"
+            form="δὲ"
+            lemma="δέ"
+            postag="d--------"
+            relation="ATR"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-2"
+            Subtree="2"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="2"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.d"
+            Rel_Pos_Subtree="Leaf.ATR-d">
+         <pos>adverb</pos>
+      </word>
+      <word id="3"
+            form="τριάκοντα"
+            lemma="τριάκοντα"
+            postag="a-_---___"
+            relation="ATR"
+            head="1"
+            cite="Xenophon Hellenica Book 1: s-18 w-3"
+            Subtree="3"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-2"
+            Neighborhood="3"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.a"
+            Rel_Pos_Subtree="Leaf.ATR-a">
+         <pos>adjective</pos>
+      </word>
+      <word id="4"
+            form="ὕστερον"
+            lemma="ὕστερος"
+            postag="a-s---na-"
+            relation="ADV"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-4"
+            Subtree="4 1 3"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="GT6"
+            Neighborhood="4 1"
+            Relation_Subtree="ADV-Self.ADV"
+            POS_Subtree="a-Self.a"
+            Rel_Pos_Subtree="ADV-n-Self.ADV-a">
+         <pos>adjective</pos>
+         <gender>neuter</gender>
+         <case>accusative</case>
+      </word>
+      <word id="5"
+            form="Ἀλκιβιάδης"
+            lemma="Ἀλκιβιάδης"
+            postag="n-s---mn-"
+            relation="SBJ"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-5"
+            Subtree="5"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="5"
+            Relation_Subtree="Leaf.SBJ"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.SBJ-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>nominative</case>
+      </word>
+      <word id="6"
+            form="ἐκ"
+            lemma="ἐκ"
+            postag="r--------"
+            relation="AuxP"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-6"
+            Subtree="6 7"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="6 7"
+            Relation_Subtree="Self.AuxP-ADV"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-ADV-n">
+         <pos>preposition</pos>
+      </word>
+      <word id="7"
+            form="Σάρδεων"
+            lemma="Σάρδεις"
+            postag="n-p---fg-"
+            relation="ADV"
+            head="6"
+            cite="Xenophon Hellenica Book 1: s-18 w-7"
+            Subtree="7"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="7"
+            Relation_Subtree="Leaf.ADV"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.ADV-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="8"
+            form="μετὰ"
+            lemma="μετά"
+            postag="r--------"
+            relation="AuxP"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-8"
+            Subtree="8 9 10 11 12 13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="8 9"
+            Relation_Subtree="Self.AuxP-ADV"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-ADV-n">
+         <pos>preposition</pos>
+      </word>
+      <word id="9"
+            form="Μαντιθέου"
+            lemma="Μαντίθεος"
+            postag="n-s---mg-"
+            relation="ADV"
+            head="8"
+            cite="Xenophon Hellenica Book 1: s-18 w-9"
+            Subtree="9 10 11 12 13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="9 10 11"
+            Relation_Subtree="Self.ADV-ATR-ATR"
+            POS_Subtree="Self.n"
+            Rel_Pos_Subtree="Self.ADV-n-ATR-l-ATR-v">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="10"
+            form="τοῦ"
+            lemma="ὁ"
+            postag="l-s---mg-"
+            relation="ATR"
+            head="9"
+            cite="Xenophon Hellenica Book 1: s-18 w-10"
+            Subtree="10"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="10"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="11"
+            form="ἁλόντος"
+            lemma="ἁλίσκομαι"
+            postag="v-sapamg-"
+            relation="ATR"
+            head="9"
+            cite="Xenophon Hellenica Book 1: s-18 w-11"
+            Subtree="11 12 13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-2"
+            Neighborhood="11 12"
+            Relation_Subtree="Self.ATR-AuxP"
+            POS_Subtree="Self.v"
+            Rel_Pos_Subtree="Self.ATR-v-AuxP-r">
+         <pos>verb</pos>
+         <number>singular</number>
+         <tense>aorist</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="12"
+            form="ἐν"
+            lemma="εἰς"
+            postag="r--------"
+            relation="AuxP"
+            head="11"
+            cite="Xenophon Hellenica Book 1: s-18 w-12"
+            Subtree="12 13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="12 13"
+            Relation_Subtree="Self.AuxP-ADV"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-ADV-n">
+         <pos>preposition</pos>
+      </word>
+      <word id="13"
+            form="Καρίᾳ"
+            lemma="Καρία"
+            postag="n-s---fd-"
+            relation="ADV"
+            head="12"
+            cite="Xenophon Hellenica Book 1: s-18 w-13"
+            Subtree="13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="13"
+            Relation_Subtree="Leaf.ADV"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.ADV-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>dative</case>
+      </word>
+      <word id="14"
+            form="ἵππων"
+            lemma="ἵππος"
+            postag="n-p---mg-"
+            relation="OBJ"
+            head="15"
+            cite="Xenophon Hellenica Book 1: s-18 w-14"
+            Subtree="14"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="14"
+            Relation_Subtree="Leaf.OBJ"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.OBJ-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="15"
+            form="εὐπορήσαντες"
+            lemma="εὐπορέω"
+            postag="v-papamn-"
+            relation="ADV"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-15"
+            Subtree="15 14"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="2"
+            Neighborhood="15 14"
+            Relation_Subtree="OBJ-Self.ADV"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="OBJ-n-Self.ADV-v">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>aorist</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>masculine</gender>
+         <case>nominative</case>
+      </word>
+      <word id="16"
+            form="νυκτὸς"
+            lemma="νύξ"
+            postag="n-s---fg-"
+            relation="ADV"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-16"
+            Subtree="16"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="16"
+            Relation_Subtree="Leaf.ADV"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.ADV-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="17"
+            form="ἀπέδρασαν"
+            lemma="ἀποδιδράσκω"
+            postag="v3paia---"
+            relation="PRED"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-18 w-17"
+            Subtree="17 2 4 5 6 8 15 16 18 1 7 9 14 19 3 10 11 12 13"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="17 2 4 5 6 8 15 16 18"
+            Relation_Subtree="ATR-ADV-SBJ-AuxP-AuxP-ADV-ADV-Self.PRED-AuxP"
+            POS_Subtree="v-NA-NA-NA-NA-NA-NA-Self.v"
+            Rel_Pos_Subtree="ATR-d-ADV-a-SBJ-n-AuxP-r-AuxP-r-ADV-v-ADV-n-Self.PRED-v-AuxP-r">
+         <pos>verb</pos>
+         <person>third</person>
+         <number>plural</number>
+         <tense>aorist</tense>
+         <mood>indicative</mood>
+         <voice>active</voice>
+      </word>
+      <word id="18"
+            form="εἰς"
+            lemma="εἰς"
+            postag="r--------"
+            relation="AuxP"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-18 w-18"
+            Subtree="18 19"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="18 19"
+            Relation_Subtree="Self.AuxP-OBJ"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-OBJ-n">
+         <pos>preposition</pos>
+      </word>
+      <word id="19"
+            form="Κλαζομενάς"
+            lemma="Κλαζομεναί"
+            postag="n-p---fa-"
+            relation="OBJ"
+            head="18"
+            cite="Xenophon Hellenica Book 1: s-18 w-19"
+            Subtree="19"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="19"
+            Relation_Subtree="Leaf.OBJ"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.OBJ-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="20"
+            form="·"
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxK"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-18 w-20"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+   </sentence>
+   <sentence id="30"
+             document_id="urn:cts:greekLit:tlg0032.tlg001.perseus-grc1"
+             subdoc="1.1.16"
+             span="Xenophon Hellenica Book 1: s-30"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.3704">
+      <word id="1"
+            form="ἐπειδὴ"
+            lemma="ἐπεί"
+            postag="c--------"
+            relation="AuxC"
+            head="14"
+            cite="Xenophon Hellenica Book 1: s-30 w-1"
+            Subtree="1 6 3 5 4"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="GT6"
+            Neighborhood="1 6"
+            Relation_Subtree="Self.AuxC-ADV"
+            POS_Subtree="Self.c"
+            Rel_Pos_Subtree="Self.AuxC-c-ADV-v">
+         <pos>conjunction</pos>
+      </word>
+      <word id="2"
+            form="δʼ"
+            lemma="δέ"
+            postag="d--------"
+            relation="AuxY"
+            head="14"
+            cite="Xenophon Hellenica Book 1: s-30 w-2"
+            Subtree="2"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="GT6"
+            Neighborhood="2"
+            Relation_Subtree="Leaf.AuxY"
+            POS_Subtree="Leaf.d"
+            Rel_Pos_Subtree="Leaf.AuxY-d">
+         <pos>adverb</pos>
+      </word>
+      <word id="3"
+            form="ἐγγὺς"
+            lemma="ἐγγύς"
+            postag="d--------"
+            relation="PNOM"
+            head="6"
+            cite="Xenophon Hellenica Book 1: s-30 w-3"
+            Subtree="3 5 4"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="3"
+            Neighborhood="3 5"
+            Relation_Subtree="Self.PNOM-ADV"
+            POS_Subtree="Self.d"
+            Rel_Pos_Subtree="Self.PNOM-d-ADV-n">
+         <pos>adverb</pos>
+      </word>
+      <word id="4"
+            form="τῆς"
+            lemma="ὁ"
+            postag="l-s---fg-"
+            relation="ATR"
+            head="5"
+            cite="Xenophon Hellenica Book 1: s-30 w-4"
+            Subtree="4"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="4"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="5"
+            form="Κυζίκου"
+            lemma="Κύζικος"
+            postag="n-s---fg-"
+            relation="ADV"
+            head="3"
+            cite="Xenophon Hellenica Book 1: s-30 w-5"
+            Subtree="5 4"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-2"
+            Neighborhood="5 4"
+            Relation_Subtree="ATR-Self.ADV"
+            POS_Subtree="n-Self.n"
+            Rel_Pos_Subtree="ATR-l-Self.ADV-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="6"
+            form="ἦν"
+            lemma="εἰμί"
+            postag="v3siia---"
+            relation="ADV"
+            head="1"
+            cite="Xenophon Hellenica Book 1: s-30 w-6"
+            Subtree="6 3 5 4"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-5"
+            Neighborhood="6 3"
+            Relation_Subtree="PNOM-Self.ADV"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="PNOM-d-Self.ADV-v">
+         <pos>verb</pos>
+         <person>third</person>
+         <number>singular</number>
+         <tense>imperfect</tense>
+         <mood>indicative</mood>
+         <voice>active</voice>
+      </word>
+      <word id="7"
+            form=","
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxX"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-30 w-7"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+      <word id="8"
+            form="αἰθρίας"
+            lemma="αἰθρία"
+            postag="n-s---fg-"
+            relation="SBJ"
+            head="9"
+            cite="Xenophon Hellenica Book 1: s-30 w-8"
+            Subtree="8"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="8"
+            Relation_Subtree="Leaf.SBJ"
+            POS_Subtree="Leaf.n"
+            Rel_Pos_Subtree="Leaf.SBJ-n">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="9"
+            form="γενομένης"
+            lemma="γίγνομαι"
+            postag="v-sapmfg-"
+            relation="ADV_CO"
+            head="10"
+            cite="Xenophon Hellenica Book 1: s-30 w-9"
+            Subtree="9 8"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="9 8"
+            Relation_Subtree="SBJ-Self.ADV_CO"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="SBJ-n-Self.ADV_CO-v">
+         <pos>verb</pos>
+         <number>singular</number>
+         <tense>aorist</tense>
+         <mood>participle</mood>
+         <voice>middle</voice>
+         <gender>feminine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="10"
+            form="καὶ"
+            lemma="καί"
+            postag="c--------"
+            relation="COORD"
+            head="14"
+            cite="Xenophon Hellenica Book 1: s-30 w-10"
+            Subtree="10 9 13 8 12 11"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="4"
+            Neighborhood="10 9 13"
+            Relation_Subtree="ADV_CO-Self.COORD-ADV_CO"
+            POS_Subtree="c-Self.c"
+            Rel_Pos_Subtree="ADV_CO-v-Self.COORD-c-ADV_CO-v">
+         <pos>conjunction</pos>
+      </word>
+      <word id="11"
+            form="τοῦ"
+            lemma="ὁ"
+            postag="l-s---mg-"
+            relation="ATR"
+            head="12"
+            cite="Xenophon Hellenica Book 1: s-30 w-11"
+            Subtree="11"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="11"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="12"
+            form="ἡλίου"
+            lemma="ἥλιος"
+            postag="n-s---mg-"
+            relation="SBJ"
+            head="13"
+            cite="Xenophon Hellenica Book 1: s-30 w-12"
+            Subtree="12 11"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="12 11"
+            Relation_Subtree="ATR-Self.SBJ"
+            POS_Subtree="n-Self.n"
+            Rel_Pos_Subtree="ATR-l-Self.SBJ-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="13"
+            form="ἐκλάμψαντος"
+            lemma="ἐκλάμπω"
+            postag="v-sapamg-"
+            relation="ADV_CO"
+            head="10"
+            cite="Xenophon Hellenica Book 1: s-30 w-13"
+            Subtree="13 12 11"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-3"
+            Neighborhood="13 12"
+            Relation_Subtree="SBJ-Self.ADV_CO"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="SBJ-n-Self.ADV_CO-v">
+         <pos>verb</pos>
+         <number>singular</number>
+         <tense>aorist</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="14"
+            form="καθορᾷ"
+            lemma="καθοράω"
+            postag="v3spia---"
+            relation="PRED"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-30 w-14"
+            Subtree="14 1 2 10 24 6 9 13 18 19 25 3 8 12 15 17 30 20 26 5 11 16 29 21 27 4 23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="14 1 2 10 24"
+            Relation_Subtree="AuxC-AuxY-COORD-Self.PRED-COORD"
+            POS_Subtree="v-NA-NA-Self.v"
+            Rel_Pos_Subtree="AuxC-c-AuxY-d-COORD-c-Self.PRED-v-COORD-c">
+         <pos>verb</pos>
+         <person>third</person>
+         <number>singular</number>
+         <tense>present</tense>
+         <mood>indicative</mood>
+         <voice>active</voice>
+      </word>
+      <word id="15"
+            form="τὰς"
+            lemma="ὁ"
+            postag="l-p---fa-"
+            relation="ATR"
+            head="18"
+            cite="Xenophon Hellenica Book 1: s-30 w-15"
+            Subtree="15"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="3"
+            Neighborhood="15"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="16"
+            form="τοῦ"
+            lemma="ὁ"
+            postag="l-s---mg-"
+            relation="ATR"
+            head="17"
+            cite="Xenophon Hellenica Book 1: s-30 w-16"
+            Subtree="16"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="16"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="17"
+            form="Μινδάρου"
+            lemma="Μίνδαρος"
+            postag="n-s---mg-"
+            relation="ATR"
+            head="18"
+            cite="Xenophon Hellenica Book 1: s-30 w-17"
+            Subtree="17 16"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="17 16"
+            Relation_Subtree="ATR-Self.ATR"
+            POS_Subtree="n-Self.n"
+            Rel_Pos_Subtree="ATR-l-Self.ATR-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="18"
+            form="ναῦς"
+            lemma="ναῦς"
+            postag="n-p---fa-"
+            relation="SBJ"
+            head="24"
+            cite="Xenophon Hellenica Book 1: s-30 w-18"
+            Subtree="18 15 17 30 16 29"
+            Projectivity="NonProjective"
+            Planarity="NonPlanar"
+            DepDist="6"
+            Neighborhood="18 15 17 30"
+            Relation_Subtree="ATR-ATR-Self.SBJ-ATR"
+            POS_Subtree="n-NA-Self.n"
+            Rel_Pos_Subtree="ATR-l-ATR-n-Self.SBJ-n-ATR-v">
+         <pos>noun</pos>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="19"
+            form="γυμναζομένας"
+            lemma="γυμνάζω"
+            postag="v-pppefa-"
+            relation="OBJ_CO"
+            head="24"
+            cite="Xenophon Hellenica Book 1: s-30 w-19"
+            Subtree="19 20 21 23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="5"
+            Neighborhood="19 20"
+            Relation_Subtree="Self.OBJ_CO-ADV"
+            POS_Subtree="Self.v"
+            Rel_Pos_Subtree="Self.OBJ_CO-v-ADV-d">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>present</tense>
+         <mood>participle</mood>
+         <voice>deponent</voice>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="20"
+            form="πόρρω"
+            lemma="πρόσω"
+            postag="d--------"
+            relation="ADV"
+            head="19"
+            cite="Xenophon Hellenica Book 1: s-30 w-20"
+            Subtree="20 21 23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="20 21"
+            Relation_Subtree="Self.ADV-AuxP"
+            POS_Subtree="Self.d"
+            Rel_Pos_Subtree="Self.ADV-d-AuxP-r">
+         <pos>adverb</pos>
+      </word>
+      <word id="21"
+            form="ἀπὸ"
+            lemma="ἀπό"
+            postag="r--------"
+            relation="AuxP"
+            head="20"
+            cite="Xenophon Hellenica Book 1: s-30 w-21"
+            Subtree="21 23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="21 23"
+            Relation_Subtree="Self.AuxP-ADV"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-ADV-n">
+         <pos>preposition</pos>
+      </word>
+      <word id="22"
+            form="τοῦ"
+            lemma="ὁ"
+            postag="l-s---mg-"
+            relation="ATR"
+            head="23"
+            cite="Xenophon Hellenica Book 1: s-30 w-22"
+            Subtree="22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="22"
+            Relation_Subtree="Leaf.ATR"
+            POS_Subtree="Leaf.l"
+            Rel_Pos_Subtree="Leaf.ATR-l">
+         <pos>article</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="23"
+            form="λιμένος"
+            lemma="λιμήν"
+            postag="n-s---mg-"
+            relation="ADV"
+            head="21"
+            cite="Xenophon Hellenica Book 1: s-30 w-23"
+            Subtree="23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-2"
+            Neighborhood="23 22"
+            Relation_Subtree="ATR-Self.ADV"
+            POS_Subtree="n-Self.n"
+            Rel_Pos_Subtree="ATR-l-Self.ADV-n">
+         <pos>noun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="24"
+            form="καὶ"
+            lemma="καί"
+            postag="c--------"
+            relation="COORD"
+            head="14"
+            cite="Xenophon Hellenica Book 1: s-30 w-24"
+            Subtree="24 18 19 25 15 17 30 20 26 16 29 21 27 23 22"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="LT-6"
+            Neighborhood="24 18 19 25"
+            Relation_Subtree="SBJ-OBJ_CO-Self.COORD-OBJ_CO"
+            POS_Subtree="c-NA-Self.c"
+            Rel_Pos_Subtree="SBJ-n-OBJ_CO-v-Self.COORD-c-OBJ_CO-v">
+         <pos>conjunction</pos>
+      </word>
+      <word id="25"
+            form="ἀπειλημμένας"
+            lemma="ἀπολαμβάνω"
+            postag="v-prpefa-"
+            relation="OBJ_CO"
+            head="24"
+            cite="Xenophon Hellenica Book 1: s-30 w-25"
+            Subtree="25 26 27"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="25 26"
+            Relation_Subtree="Self.OBJ_CO-AuxP"
+            POS_Subtree="Self.v"
+            Rel_Pos_Subtree="Self.OBJ_CO-v-AuxP-r">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>perfect</tense>
+         <mood>participle</mood>
+         <voice>deponent</voice>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="26"
+            form="ὑπʼ"
+            lemma="ὑπό"
+            postag="r--------"
+            relation="AuxP"
+            head="25"
+            cite="Xenophon Hellenica Book 1: s-30 w-26"
+            Subtree="26 27"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="26 27"
+            Relation_Subtree="Self.AuxP-OBJ"
+            POS_Subtree="Self.r"
+            Rel_Pos_Subtree="Self.AuxP-r-OBJ-p">
+         <pos>preposition</pos>
+      </word>
+      <word id="27"
+            form="αὐτοῦ"
+            lemma="αὐτός"
+            postag="p-s---mg-"
+            relation="OBJ"
+            head="26"
+            cite="Xenophon Hellenica Book 1: s-30 w-27"
+            Subtree="27"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="-1"
+            Neighborhood="27"
+            Relation_Subtree="Leaf.OBJ"
+            POS_Subtree="Leaf.p"
+            Rel_Pos_Subtree="Leaf.OBJ-p">
+         <pos>pronoun</pos>
+         <gender>masculine</gender>
+         <case>genitive</case>
+      </word>
+      <word id="28"
+            form=","
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxX"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-30 w-28"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+      <word id="29"
+            form="ἑξήκοντα"
+            lemma="ἑξήκοντα"
+            postag="a-_---___"
+            relation="PNOM"
+            head="30"
+            cite="Xenophon Hellenica Book 1: s-30 w-29"
+            Subtree="29"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="1"
+            Neighborhood="29"
+            Relation_Subtree="Leaf.PNOM"
+            POS_Subtree="Leaf.a"
+            Rel_Pos_Subtree="Leaf.PNOM-a">
+         <pos>adjective</pos>
+      </word>
+      <word id="30"
+            form="οὔσας"
+            lemma="εἰμί"
+            postag="v-pppafa-"
+            relation="ATR"
+            head="18"
+            cite="Xenophon Hellenica Book 1: s-30 w-30"
+            Subtree="30 29"
+            Projectivity="Projective"
+            Planarity="Planar"
+            DepDist="LT-6"
+            Neighborhood="30 29"
+            Relation_Subtree="PNOM-Self.ATR"
+            POS_Subtree="v-Self.v"
+            Rel_Pos_Subtree="PNOM-a-Self.ATR-v">
+         <pos>verb</pos>
+         <number>plural</number>
+         <tense>present</tense>
+         <mood>participle</mood>
+         <voice>active</voice>
+         <gender>feminine</gender>
+         <case>accusative</case>
+      </word>
+      <word id="31"
+            form="."
+            lemma="punc1"
+            postag="u--------"
+            relation="AuxK"
+            head="0"
+            cite="Xenophon Hellenica Book 1: s-30 w-31"
+            Subtree="NA"
+            Projectivity="NA"
+            Planarity="Planar"
+            DepDist="NA"
+            Neighborhood="NA"
+            Relation_Subtree="NA"
+            POS_Subtree="NA"
+            Rel_Pos_Subtree="NA">
+         <pos>punctuation</pos>
+      </word>
+   </sentence>
+    
+</treebank>
