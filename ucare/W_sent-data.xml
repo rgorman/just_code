@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subTree_document>
+   <sentence id="1"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-1"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.0625"
+             Sentence_length="23">
+      <sentence_id>1</sentence_id>
+      <Avg_DD>2.0625</Avg_DD>
+      <token_count>23</token_count>
+   </sentence>
+   <sentence id="2"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-2"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2"
+             Sentence_length="22">
+      <sentence_id>2</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>22</token_count>
+   </sentence>
+   <sentence id="4"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-4"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.3846"
+             Sentence_length="18">
+      <sentence_id>4</sentence_id>
+      <Avg_DD>2.3846</Avg_DD>
+      <token_count>18</token_count>
+   </sentence>
+   <sentence id="5"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-5"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.8"
+             Sentence_length="7">
+      <sentence_id>5</sentence_id>
+      <Avg_DD>1.8</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="6"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-6"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.5714"
+             Sentence_length="28">
+      <sentence_id>6</sentence_id>
+      <Avg_DD>2.5714</Avg_DD>
+      <token_count>28</token_count>
+   </sentence>
+   <sentence id="7"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-7"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.4"
+             Sentence_length="7">
+      <sentence_id>7</sentence_id>
+      <Avg_DD>2.4</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="9"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-9"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.6"
+             Sentence_length="7">
+      <sentence_id>9</sentence_id>
+      <Avg_DD>1.6</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="10"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-10"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.3125"
+             Sentence_length="20">
+      <sentence_id>10</sentence_id>
+      <Avg_DD>2.3125</Avg_DD>
+      <token_count>20</token_count>
+   </sentence>
+   <sentence id="11"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-11"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.6818"
+             Sentence_length="27">
+      <sentence_id>11</sentence_id>
+      <Avg_DD>2.6818</Avg_DD>
+      <token_count>27</token_count>
+   </sentence>
+   <sentence id="12"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-12"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.6667"
+             Sentence_length="8">
+      <sentence_id>12</sentence_id>
+      <Avg_DD>2.6667</Avg_DD>
+      <token_count>8</token_count>
+   </sentence>
+   <sentence id="15"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-15"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.0667"
+             Sentence_length="18">
+      <sentence_id>15</sentence_id>
+      <Avg_DD>2.0667</Avg_DD>
+      <token_count>18</token_count>
+   </sentence>
+   <sentence id="16"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-16"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.6667"
+             Sentence_length="37">
+      <sentence_id>16</sentence_id>
+      <Avg_DD>3.6667</Avg_DD>
+      <token_count>37</token_count>
+   </sentence>
+   <sentence id="17"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-17"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.9024"
+             Sentence_length="48">
+      <sentence_id>17</sentence_id>
+      <Avg_DD>4.9024</Avg_DD>
+      <token_count>48</token_count>
+   </sentence>
+   <sentence id="19"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-19"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.4"
+             Sentence_length="12">
+      <sentence_id>19</sentence_id>
+      <Avg_DD>2.4</Avg_DD>
+      <token_count>12</token_count>
+   </sentence>
+   <sentence id="20"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-20"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2"
+             Sentence_length="11">
+      <sentence_id>20</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>11</token_count>
+   </sentence>
+   <sentence id="21"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-21"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3.52"
+             Sentence_length="30">
+      <sentence_id>21</sentence_id>
+      <Avg_DD>3.52</Avg_DD>
+      <token_count>30</token_count>
+   </sentence>
+   <sentence id="22"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-22"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.3846"
+             Sentence_length="18">
+      <sentence_id>22</sentence_id>
+      <Avg_DD>2.3846</Avg_DD>
+      <token_count>18</token_count>
+   </sentence>
+   <sentence id="24"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-24"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.125"
+             Sentence_length="10">
+      <sentence_id>24</sentence_id>
+      <Avg_DD>2.125</Avg_DD>
+      <token_count>10</token_count>
+   </sentence>
+   <sentence id="26"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-26"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.5385"
+             Sentence_length="19">
+      <sentence_id>26</sentence_id>
+      <Avg_DD>3.5385</Avg_DD>
+      <token_count>19</token_count>
+   </sentence>
+   <sentence id="28"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-28"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.1111"
+             Sentence_length="13">
+      <sentence_id>28</sentence_id>
+      <Avg_DD>2.1111</Avg_DD>
+      <token_count>13</token_count>
+   </sentence>
+   <sentence id="29"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-29"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.0476"
+             Sentence_length="27">
+      <sentence_id>29</sentence_id>
+      <Avg_DD>4.0476</Avg_DD>
+      <token_count>27</token_count>
+   </sentence>
+   <sentence id="30"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-30"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.4167"
+             Sentence_length="31">
+      <sentence_id>30</sentence_id>
+      <Avg_DD>2.4167</Avg_DD>
+      <token_count>31</token_count>
+   </sentence>
+   <sentence id="31"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-31"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.3"
+             Sentence_length="24">
+      <sentence_id>31</sentence_id>
+      <Avg_DD>2.3</Avg_DD>
+      <token_count>24</token_count>
+   </sentence>
+   <sentence id="32"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-32"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.0625"
+             Sentence_length="21">
+      <sentence_id>32</sentence_id>
+      <Avg_DD>2.0625</Avg_DD>
+      <token_count>21</token_count>
+   </sentence>
+   <sentence id="33"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-33"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.55"
+             Sentence_length="23">
+      <sentence_id>33</sentence_id>
+      <Avg_DD>3.55</Avg_DD>
+      <token_count>23</token_count>
+   </sentence>
+   <sentence id="35"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-35"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.125"
+             Sentence_length="10">
+      <sentence_id>35</sentence_id>
+      <Avg_DD>2.125</Avg_DD>
+      <token_count>10</token_count>
+   </sentence>
+   <sentence id="36"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-36"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.5"
+             Sentence_length="8">
+      <sentence_id>36</sentence_id>
+      <Avg_DD>2.5</Avg_DD>
+      <token_count>8</token_count>
+   </sentence>
+   <sentence id="37"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-37"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.6364"
+             Sentence_length="13">
+      <sentence_id>37</sentence_id>
+      <Avg_DD>2.6364</Avg_DD>
+      <token_count>13</token_count>
+   </sentence>
+   <sentence id="38"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-38"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3.4"
+             Sentence_length="19">
+      <sentence_id>38</sentence_id>
+      <Avg_DD>3.4</Avg_DD>
+      <token_count>19</token_count>
+   </sentence>
+   <sentence id="39"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-39"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.4231"
+             Sentence_length="28">
+      <sentence_id>39</sentence_id>
+      <Avg_DD>4.4231</Avg_DD>
+      <token_count>28</token_count>
+   </sentence>
+   <sentence id="40"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-40"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3.3333"
+             Sentence_length="8">
+      <sentence_id>40</sentence_id>
+      <Avg_DD>3.3333</Avg_DD>
+      <token_count>8</token_count>
+   </sentence>
+   <sentence id="41"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-41"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.5294"
+             Sentence_length="20">
+      <sentence_id>41</sentence_id>
+      <Avg_DD>3.5294</Avg_DD>
+      <token_count>20</token_count>
+   </sentence>
+   <sentence id="46"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-46"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.6"
+             Sentence_length="7">
+      <sentence_id>46</sentence_id>
+      <Avg_DD>1.6</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="48"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-48"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.1667"
+             Sentence_length="15">
+      <sentence_id>48</sentence_id>
+      <Avg_DD>2.1667</Avg_DD>
+      <token_count>15</token_count>
+   </sentence>
+   <sentence id="49"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-49"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.6"
+             Sentence_length="29">
+      <sentence_id>49</sentence_id>
+      <Avg_DD>2.6</Avg_DD>
+      <token_count>29</token_count>
+   </sentence>
+   <sentence id="50"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-50"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3.5556"
+             Sentence_length="21">
+      <sentence_id>50</sentence_id>
+      <Avg_DD>3.5556</Avg_DD>
+      <token_count>21</token_count>
+   </sentence>
+   <sentence id="52"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-52"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.4545"
+             Sentence_length="14">
+      <sentence_id>52</sentence_id>
+      <Avg_DD>2.4545</Avg_DD>
+      <token_count>14</token_count>
+   </sentence>
+   <sentence id="53"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-53"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.625"
+             Sentence_length="46">
+      <sentence_id>53</sentence_id>
+      <Avg_DD>2.625</Avg_DD>
+      <token_count>46</token_count>
+   </sentence>
+   <sentence id="54"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-54"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.6"
+             Sentence_length="12">
+      <sentence_id>54</sentence_id>
+      <Avg_DD>1.6</Avg_DD>
+      <token_count>12</token_count>
+   </sentence>
+   <sentence id="55"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-55"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.75"
+             Sentence_length="11">
+      <sentence_id>55</sentence_id>
+      <Avg_DD>1.75</Avg_DD>
+      <token_count>11</token_count>
+   </sentence>
+   <sentence id="56"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-56"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.1429"
+             Sentence_length="17">
+      <sentence_id>56</sentence_id>
+      <Avg_DD>3.1429</Avg_DD>
+      <token_count>17</token_count>
+   </sentence>
+   <sentence id="59"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-59"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.4286"
+             Sentence_length="9">
+      <sentence_id>59</sentence_id>
+      <Avg_DD>2.4286</Avg_DD>
+      <token_count>9</token_count>
+   </sentence>
+   <sentence id="60"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-60"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.7778"
+             Sentence_length="11">
+      <sentence_id>60</sentence_id>
+      <Avg_DD>2.7778</Avg_DD>
+      <token_count>11</token_count>
+   </sentence>
+   <sentence id="61"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-61"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.7586"
+             Sentence_length="36">
+      <sentence_id>61</sentence_id>
+      <Avg_DD>3.7586</Avg_DD>
+      <token_count>36</token_count>
+   </sentence>
+   <sentence id="62"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-62"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.2"
+             Sentence_length="49">
+      <sentence_id>62</sentence_id>
+      <Avg_DD>4.2</Avg_DD>
+      <token_count>49</token_count>
+   </sentence>
+   <sentence id="63"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-63"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.2143"
+             Sentence_length="19">
+      <sentence_id>63</sentence_id>
+      <Avg_DD>3.2143</Avg_DD>
+      <token_count>19</token_count>
+   </sentence>
+   <sentence id="64"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-64"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.2857"
+             Sentence_length="11">
+      <sentence_id>64</sentence_id>
+      <Avg_DD>2.2857</Avg_DD>
+      <token_count>11</token_count>
+   </sentence>
+   <sentence id="65"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-65"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.5484"
+             Sentence_length="39">
+      <sentence_id>65</sentence_id>
+      <Avg_DD>4.5484</Avg_DD>
+      <token_count>39</token_count>
+   </sentence>
+   <sentence id="66"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-66"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.6"
+             Sentence_length="7">
+      <sentence_id>66</sentence_id>
+      <Avg_DD>1.6</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="67"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-67"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3"
+             Sentence_length="11">
+      <sentence_id>67</sentence_id>
+      <Avg_DD>3</Avg_DD>
+      <token_count>11</token_count>
+   </sentence>
+   <sentence id="68"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-68"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.8605"
+             Sentence_length="52">
+      <sentence_id>68</sentence_id>
+      <Avg_DD>3.8605</Avg_DD>
+      <token_count>52</token_count>
+   </sentence>
+   <sentence id="69"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-69"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2"
+             Sentence_length="25">
+      <sentence_id>69</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>25</token_count>
+   </sentence>
+   <sentence id="70"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-70"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2"
+             Sentence_length="13">
+      <sentence_id>70</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>13</token_count>
+   </sentence>
+   <sentence id="71"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-71"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.2"
+             Sentence_length="26">
+      <sentence_id>71</sentence_id>
+      <Avg_DD>2.2</Avg_DD>
+      <token_count>26</token_count>
+   </sentence>
+   <sentence id="72"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-72"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="5.1765"
+             Sentence_length="24">
+      <sentence_id>72</sentence_id>
+      <Avg_DD>5.1765</Avg_DD>
+      <token_count>24</token_count>
+   </sentence>
+   <sentence id="73"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-73"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.1429"
+             Sentence_length="19">
+      <sentence_id>73</sentence_id>
+      <Avg_DD>3.1429</Avg_DD>
+      <token_count>19</token_count>
+   </sentence>
+   <sentence id="74"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-74"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.2"
+             Sentence_length="7">
+      <sentence_id>74</sentence_id>
+      <Avg_DD>2.2</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="75"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-75"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="4.3"
+             Sentence_length="39">
+      <sentence_id>75</sentence_id>
+      <Avg_DD>4.3</Avg_DD>
+      <token_count>39</token_count>
+   </sentence>
+   <sentence id="78"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-78"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.0909"
+             Sentence_length="14">
+      <sentence_id>78</sentence_id>
+      <Avg_DD>2.0909</Avg_DD>
+      <token_count>14</token_count>
+   </sentence>
+   <sentence id="79"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-79"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2"
+             Sentence_length="7">
+      <sentence_id>79</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="81"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-81"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.75"
+             Sentence_length="10">
+      <sentence_id>81</sentence_id>
+      <Avg_DD>2.75</Avg_DD>
+      <token_count>10</token_count>
+   </sentence>
+   <sentence id="85"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-85"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.7143"
+             Sentence_length="9">
+      <sentence_id>85</sentence_id>
+      <Avg_DD>2.7143</Avg_DD>
+      <token_count>9</token_count>
+   </sentence>
+   <sentence id="86"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-86"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.4286"
+             Sentence_length="9">
+      <sentence_id>86</sentence_id>
+      <Avg_DD>2.4286</Avg_DD>
+      <token_count>9</token_count>
+   </sentence>
+   <sentence id="88"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-88"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.6667"
+             Sentence_length="5">
+      <sentence_id>88</sentence_id>
+      <Avg_DD>1.6667</Avg_DD>
+      <token_count>5</token_count>
+   </sentence>
+   <sentence id="89"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-89"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.05"
+             Sentence_length="26">
+      <sentence_id>89</sentence_id>
+      <Avg_DD>3.05</Avg_DD>
+      <token_count>26</token_count>
+   </sentence>
+   <sentence id="91"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-91"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="1.9"
+             Sentence_length="13">
+      <sentence_id>91</sentence_id>
+      <Avg_DD>1.9</Avg_DD>
+      <token_count>13</token_count>
+   </sentence>
+   <sentence id="92"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-92"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2.8824"
+             Sentence_length="22">
+      <sentence_id>92</sentence_id>
+      <Avg_DD>2.8824</Avg_DD>
+      <token_count>22</token_count>
+   </sentence>
+   <sentence id="93"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-93"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.7273"
+             Sentence_length="15">
+      <sentence_id>93</sentence_id>
+      <Avg_DD>2.7273</Avg_DD>
+      <token_count>15</token_count>
+   </sentence>
+   <sentence id="94"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-94"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="1.8889"
+             Sentence_length="12">
+      <sentence_id>94</sentence_id>
+      <Avg_DD>1.8889</Avg_DD>
+      <token_count>12</token_count>
+   </sentence>
+   <sentence id="95"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-95"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="3.2381"
+             Sentence_length="28">
+      <sentence_id>95</sentence_id>
+      <Avg_DD>3.2381</Avg_DD>
+      <token_count>28</token_count>
+   </sentence>
+   <sentence id="97"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-97"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="2"
+             Sentence_length="7">
+      <sentence_id>97</sentence_id>
+      <Avg_DD>2</Avg_DD>
+      <token_count>7</token_count>
+   </sentence>
+   <sentence id="98"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-98"
+             Sentence_Projectivity="Projective"
+             Sentence_Planarity="Planar"
+             Mean_DepDist="3.0833"
+             Sentence_length="15">
+      <sentence_id>98</sentence_id>
+      <Avg_DD>3.0833</Avg_DD>
+      <token_count>15</token_count>
+   </sentence>
+   <sentence id="99"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-99"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.6585"
+             Sentence_length="52">
+      <sentence_id>99</sentence_id>
+      <Avg_DD>2.6585</Avg_DD>
+      <token_count>52</token_count>
+   </sentence>
+   <sentence id="100"
+             document_id=""
+             subdoc=""
+             span="Excerpts of Cicero De Officiis 1: s-100"
+             Sentence_Projectivity="NonProjective"
+             Sentence_Planarity="NonPlanar"
+             Mean_DepDist="2.8"
+             Sentence_length="24">
+      <sentence_id>100</sentence_id>
+      <Avg_DD>2.8</Avg_DD>
+      <token_count>24</token_count>
+   </sentence>
+</subTree_document>
