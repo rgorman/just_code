@@ -1,0 +1,10 @@
+name: shiny
+title:
+account: greek-latin-treebanking-analysis
+server: shinyapps.io
+appId: 207828
+bundleId: 967152
+url: https://greek-latin-treebanking-analysis.shinyapps.io/shiny/
+when: 1504554048.24087
+asMultiple: FALSE
+asStatic: FALSE
