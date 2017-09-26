@@ -798,12 +798,85 @@
                 </xsl:otherwise>
             </xsl:choose>
             
+            <xsl:variable name="g2-parent_id"
+                select="parent::sentence/word[@id = $g1-parent_id]/@head"/>
+            <xsl:variable name="g2-parent-pos" select="substring(../word[@id = $g2-parent_id]/@postag, 1, 1)"/>
             
-           
+            
+            <xsl:choose>
+                <xsl:when test="$g2-parent_id = 0">
+                    <xsl:attribute name="g2-parent-relation">root</xsl:attribute>
+                    <xsl:attribute name="g2-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g2-parent-morph-pos">null</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="$g2-parent_id > 0">
+                    <xsl:attribute name="g2-parent-relation"><xsl:value-of select="../word[@id = $g2-parent_id]/@relation"/></xsl:attribute>
+                    <xsl:attribute name="g2-parent-depdist"><xsl:value-of select="../word[@id = $g2-parent_id]/@DepDist"/></xsl:attribute>
+                    <xsl:attribute name="g2-parent-morph-pos"><xsl:value-of select="$g2-parent-pos"/></xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="g2-parent-relation">null</xsl:attribute>
+                    <xsl:attribute name="g2-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g2-parent-morph-pos">null</xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            <xsl:variable name="g3-parent_id"
+                select="parent::sentence/word[@id = $g2-parent_id]/@head"/>
+            <xsl:variable name="g3-parent-pos" select="substring(../word[@id = $g3-parent_id]/@postag, 1, 1)"/>
+            
+            
+            <xsl:choose>
+                <xsl:when test="$g3-parent_id = 0">
+                    <xsl:attribute name="g3-parent-relation">root</xsl:attribute>
+                    <xsl:attribute name="g3-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g3-parent-morph-pos">null</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="$g3-parent_id > 0">
+                    <xsl:attribute name="g3-parent-relation"><xsl:value-of select="../word[@id = $g3-parent_id]/@relation"/></xsl:attribute>
+                    <xsl:attribute name="g3-parent-depdist"><xsl:value-of select="../word[@id = $g3-parent_id]/@DepDist"/></xsl:attribute>
+                    <xsl:attribute name="g3-parent-morph-pos"><xsl:value-of select="$g3-parent-pos"/></xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="g3-parent-relation">null</xsl:attribute>
+                    <xsl:attribute name="g3-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g3-parent-morph-pos">null</xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            
+            <xsl:variable name="g4-parent_id"
+                select="parent::sentence/word[@id = $g3-parent_id]/@head"/>
+            <xsl:variable name="g4-parent-pos" select="substring(../word[@id = $g4-parent_id]/@postag, 1, 1)"/>
+            
+            
+            <xsl:choose>
+                <xsl:when test="$g4-parent_id = 0">
+                    <xsl:attribute name="g4-parent-relation">root</xsl:attribute>
+                    <xsl:attribute name="g4-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g4-parent-morph-pos">null</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="$g4-parent_id > 0">
+                    <xsl:attribute name="g4-parent-relation"><xsl:value-of select="../word[@id = $g4-parent_id]/@relation"/></xsl:attribute>
+                    <xsl:attribute name="g4-parent-depdist"><xsl:value-of select="../word[@id = $g4-parent_id]/@DepDist"/></xsl:attribute>
+                    <xsl:attribute name="g4-parent-morph-pos"><xsl:value-of select="$g4-parent-pos"/></xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="g4-parent-relation">null</xsl:attribute>
+                    <xsl:attribute name="g4-parent-depdist">null</xsl:attribute>
+                    <xsl:attribute name="g4-parent-morph-pos">null</xsl:attribute>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            
             
             
             
             <gp1-id><xsl:value-of select="$g1-parent_id"/></gp1-id>
+            <gp2-id><xsl:value-of select="$g2-parent_id"/></gp2-id>
+            <gp3-id><xsl:value-of select="$g3-parent_id"/></gp3-id>
+            <gp4-id><xsl:value-of select="$g4-parent_id"/></gp4-id>
+            
         </word>
     </xsl:template>
     
