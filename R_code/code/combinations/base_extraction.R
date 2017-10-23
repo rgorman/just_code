@@ -1,12 +1,14 @@
 rm(list = ls())
 require(XML)
 require(tidyverse)
+require(stringr)
 
-input.dir <- "./xslt_output"
+input.dir <- "./combin_input"
 files.v <- dir(path=input.dir, pattern=".*xml")
 
 
-i <- 6
+
+i <- 1
 files.v[i]
 
 # read xml structure from file to .R object
@@ -19,9 +21,9 @@ word.nodes <- getNodeSet(doc.object, "//word")
 word.list <- xmlApply(word.nodes, xmlToList)
 
 
+rm(doc.object)
 
-
-
+doc.object <- xmlTreeParse(file.path(input.dir, files.v[i]), useInternalNodes=TRUE)
 
 
 
@@ -55,6 +57,7 @@ for (i in seq_along(y)) {
 )
 
 
+word.list[1]
 
 colnames(z) <- y
 
@@ -199,10 +202,10 @@ zzz[,2]
 ########################################
 ########################## populate list object with character vectors of new variables
 
-j <- 2
+j <- 3
 
 system.time(
-for (j in 1:1) {
+for (j in seq_along(x2)) {
   
   zzz <- x2[[j]]
   v.list <- vector("list", ncol(zzz))
@@ -237,9 +240,35 @@ for (j in 1:1) {
 v.list[[3]][1:10]
 nomina.v[3]
 
+v.list2 <- v.list[1:10]
+
 seq_along(v.list)
 
 test <- lapply(v.list, function(x) lapply(x, f_NA)) # insert logical NA for any variable containing the string "NA".
+test2 <- lapply(v.list[1:5], function(x) lapply(x, f_NA2))
+
+na.holder <- lapply(test2, function(x) which(is.na(x)))
+
+test.df <- do.call(f_bind, test2) 
+
+test.df <- 
+
+  f_bind <- function(x) {
+    cbind.data.frame(unlist(x), stringsAsFactors = FALSE)
+  }  
+  
+
+lengths(v.list) %>%
+  sum()
+
+lengths(test2) %>% 
+  sum()
+
+lengths(na.holder) %>%
+  sum()
+
+16861203 - 14822187
+
 which(is.na(na.test[[1]]))
 
 which(is.na(test2[, 1]))
@@ -296,7 +325,7 @@ j <- 1
 for (j in seq_along(holder)) {
   for (i in seq_along(null.row.numbs[[j]])) {
     
-    na.test.df[holder[i], null.row.numbs[[i]][j]] <- NA
+    na.test.df[null.row.numbs[[j]][i], holder[i] ] <- NA
     
   }
   
@@ -310,7 +339,19 @@ c(holder[i], null.row.numbs[[i]])
 
 na.test.df[null.collect[[1]], 38]
 
-na.test.df[8:11, 38]
+rep_holder <- rep(holder[1], length(null.row.numbs[[1]]))
+
+na.test.df[null.row.numbs[[1]], rep_holder[1]] <- NA
+
+
+
+
+for (j in 3:length(holder)) { # this one worked !!!
+  rep_holder <- rep(holder[j], length(null.row.numbs[[j]]))
+  na.test.df[null.row.numbs[[j]], holder[j]] <- NA
+  
+}
+
 ###################################################
 
 
@@ -362,6 +403,8 @@ f_NA_count <- function(x) {
   
 }
 
+
+
 na.count <- NULL
 na.count <- append(na.count, unlist(lapply(v.list, f_NA_count)))
 na.count[[1]]
@@ -400,14 +443,20 @@ f_NA <- function(x) {
   }
 }
 
+
+f_NA2 <- function(x) {
+  if (str_detect(x, "NA") == TRUE | str_detect(x, "null") == TRUE) { # Note: str_detect() requires the stringr package.
+    NA
+  } else {
+    x
+  }
+}
+
 is.na(test.v)
 test.v <- lapply(v.list[[1]], f_NA) %>%
   unlist()
 
-f_NA2 <- function(x) {
-  na_if(x, str_detect(x, "NA") == TRUE)  # Note: str_detect() requires the stringr package.
-    
-}
+
 
 f_NULL <- function(x) {
   if (str_detect(x, "null") == TRUE) { # Note: str_detect() requires the stringr package.
@@ -527,11 +576,14 @@ which(is.na(null.v)) %>%
   length()
 
 null_na.v <- l
+out[[4]]
+
+####################more play 
 
 
 
-
-
+length(na.test.df[[1]])
+seq_along(na.test.df)
 ########################
 
 nomina.v <- NULL

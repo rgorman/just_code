@@ -62,5 +62,100 @@ which(freqs.df$Freq >= 5) %>%
 
 freqs.df2 <- freqs.df[which(freqs.df$Freq >= 5) ,]
 
+choose(8, 1:8) %>%
+  sum()
+  
+###################### Create all combinations of chosen variables
+
+self_attrs <- c(17, 16, 18:39, 3:15, 9:10)
+parent_attrs <- 27:39
+g1parent_attrs <- 40:52
+g2parent_attrs  <- 53:55
+g3parent_attrs <- 56:58
+g4parent_attrs <- 59:61
+
+group_list <- list() # create a list object to hold vectors identifying attributes to extract
+
+group1.v <- c(17, 16, 18, 28, 27, 31, 41, 40, 44, 54, 53, 55) # indices (from vector "y") for creation of sWord level variables.
 
 
+
+group2.v <- c(17, 16, 18:39, 13:15, 9:10) # indices of morphology values, etc.  for first 2 generations (target word and parent)
+
+
+
+group3.v <- c(28, 27, 29:39, 41, 40, 42:52) # indices for parent and grandparent values.
+
+
+
+group_1.list <- list() # make empty list object to store result of loop
+nomina.v <- NULL # make empty vector to store names
+
+
+for (i in seq_along(group1.v)) { # iterate for each item in group1.v
+  group_1.list[[i]] <- combn(y[group1.v], i) # make all possible combinations of variables
+  nomina.v <- paste(length(group1.v), "Choose",  i, collapse = " ") %>% # create names for elements in list
+    append(nomina.v, .)
+}
+
+names(group_1.list) <- nomina.v  # assign names to list elements
+
+
+group_2.list <- list() # make empty list object to store result of loop
+nomina.v <- NULL # make empty vector to store names
+
+
+
+
+for (i in 1:5) { # iterate selected number of times
+  group_2.list[[i]] <- combn(y[group2.v], i) # make all possible combinations of variables
+  nomina.v <- paste(length(group2.v), "Choose",  i, collapse = " ") %>% # create names for elements in list
+    append(nomina.v, .)
+}
+
+names(group_3.list) <- nomina.v  # assign names to list elements
+
+
+group_3.list <- list() # make empty list object to store result of loop
+nomina.v <- NULL # make empty vector to store names
+
+for (i in 1:5) { # iterate selected number of times
+  group_3.list[[i]] <- combn(y[group3.v], i) # make all possible combinations of variables
+  nomina.v <- paste(length(group3.v), "Choose",  i, collapse = " ") %>% # create names for elements in list
+    append(nomina.v, .)
+}
+
+names(group_3.list) <- nomina.v  # assign names to list elements
+
+
+
+
+
+
+i <- 1
+system.time(
+  for (i in 1:length(y[c(17, 16, 18:39, 13:15)])) {
+    xxx[[i]] <-  combn(y[c(17, 16, 18:39, 13:15 )], i, simplify = TRUE) # combn() creates all combinations
+  }
+)
+
+# loop to create vector of names for list of new variables
+i <- 1
+nomina.v <- NULL
+for (i in 1:length(y[c(17, 16, 18:39, 13:15)])) {
+  nomina.v <- paste("24", "Choose",  i, collapse = " ") %>%
+    append(nomina.v, .)
+}
+
+names(xxx) <- nomina.v  # assign names to list
+
+#########################################
+choose(12, 1:12) %>%
+  sum()
+
+#########################################
+choose(26, 1:26) %>%
+  sum()
+
+choose(29, 1:15)
+paste("24", "Choose",  1:5, collapse = " ")
