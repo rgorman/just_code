@@ -21,10 +21,6 @@ word.nodes <- getNodeSet(doc.object, "//word")
 word.list <- xmlApply(word.nodes, xmlToList)
 
 
-rm(doc.object)
-
-doc.object <- xmlTreeParse(file.path(input.dir, files.v[i]), useInternalNodes=TRUE)
-
 
 
 y <- map(word.list, names) %>%
@@ -93,7 +89,7 @@ for (i in 1:length(y[c(17, 16, 18:39, 13:15)])) {
 i <- 1
 nomina.v <- NULL
 for (i in 1:length(y[c(17, 16, 18:39, 13:15)])) {
-  nomina.v <- paste("24", "Choose",  i, collapse = " ") %>%
+  nomina.v <- paste("27", "Choose",  i, collapse = " ") %>%
     append(nomina.v, .)
 }
 
@@ -202,7 +198,41 @@ zzz[,2]
 ########################################
 ########################## populate list object with character vectors of new variables
 
-j <- 3
+i <- 1
+j <- 1
+seq_along(culled.output.list)
+
+
+
+v.list <- vector("list",sum (lengths(culled.output.list)))
+counter <- 1
+var.names <- NULL
+for (i in 1:2) {
+  
+  var.holder <- culled.output.list[[i]]
+ # v.list <- vector("list", ncol(var.holder))
+ 
+  
+  
+  
+    for (j in seq_len(ncol(var.holder))) {
+      compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
+        as.character()
+      
+      var.names  <- paste0(var.holder[, j], collapse = "*") %>%
+        append(var.names, .)
+      
+      v.list[[counter]] <- compound.vars
+       names(v.list[[counter]]) <- var.names
+      counter <- counter + 1
+      
+    }
+  
+}
+
+
+i <- 1
+
 
 system.time(
 for (j in seq_along(x2)) {
@@ -229,6 +259,11 @@ for (j in seq_along(x2)) {
   
   temp.l<- list()
   temp.l[[1]] <- do.call(cbind, v.list)
+  a <- temp.l[[1]]
+  colnames(a) <- var.names
+  dim (a)
+  
+  View(a[1:5, 1:20])
   
   write.csv(temp.l[[1]], file = paste0("new_variables", "-", j, ".csv"))
   
@@ -278,6 +313,9 @@ test2 <- vector("list", 3)
 test2[[3]] <- test[[3]]
 
 na.test3 <- cbind.data.frame(unlist(test[[1]]), unlist(test[[2]]), stringsAsFactors = FALSE) # This one works!!
+
+a2 <- do.call(cbind.data.frame, v.list)
+
 colnames(na.test3) <- nomina.v[1:2]
 na.test3 <- cbind(token_id, na.test3)
 
@@ -296,7 +334,12 @@ f_bind <- function(x) {
 }
 
 
-na.test3 <- lapply(test, f_bind)
+test.2 <- lapply(temp.l, f_bind)
+dim(test.1[[1]])
+temp.df <- test.2[[1]]
+
+test.1[[1]][1:10, 1:10]
+
 na.test.df <- do.call(cbind.data.frame, na.test3)
 colnames(na.test.df) <- nomina.v
 na.test.df <- cbind.data.frame(token_id, na.test.df, stringsAsFactors = FALSE)
@@ -482,7 +525,7 @@ apply(na.test.df, 2, f_NULL_count) %>%
 
 result.df <- lapply(na.test.df, f_NULL)
 
-short.test <- lapply(v.list[[1]], f_NA)
+short.test <- lapply(v.list[[3]], f_NA)
 
 which(str_detect(na.test.df, "null") == TRUE)
 

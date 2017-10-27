@@ -410,6 +410,7 @@ for (i in seq_along(groups.list)) {
   }
   
   
+  
 }
 
 
@@ -662,5 +663,83 @@ for (i in seq_along(output.list)) { # iterate through output.list
 
 names(culled.output.list) <- names(output.list) # add names to list elements
 
+#################
+i <- 15
+dim(var.holder)
+
+v.list <- vector("list", sum(lengths(culled.output.list)))
+counter <- 1
+var.names <- NULL
+for (i in 1:2) {
+  
+  var.holder <- culled.output.list[[i]]
+  # v.list <- vector("list", ncol(var.holder))
+  
+  
+  
+  
+  for (j in seq_len(ncol(var.holder))) {
+    compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
+      as.character()
+    
+    var.names  <- paste0(var.holder[, j], collapse = "*") %>%
+      append(var.names, .)
+    
+    compound.vars <- tolower(compound.vars) # convert to lower case
+    
+    v.list[[counter]] <- compound.vars
+    names(v.list[[counter]]) <- var.names
+    counter <- counter + 1
+    
+  }
+  
+}
 
 
+com.variables.m  <- do.call(cbind, v.list) # make matrix containing new variables
+
+abc  <- do.call(cbind, v.list)
+ab <- temp.l[[1]]
+colnames(abc) <- var.names
+rownames(abc) <- NULL
+dim (ab)
+
+View(abc[1:5, 1:20])
+View(a2[1:5, 1:20])
+
+c <- which(str_detect(ab, "na") == TRUE )
+a2 <- a
+
+####### The following 2 lines work well to insert Boolean NAs into cells.
+ab[which(str_detect(ab, "na") == TRUE )] <- NA
+ab[which(str_detect(ab, "null") == TRUE )] <- NA
+
+
+
+
+ab <- cbind(z[, 7], ab)
+
+ab.df <- data.frame(ab, stringsAsFactors = FALSE, check.names = FALSE)
+
+
+View(ab.df[1:5, 1:20])
+colnames(a2.df[1]) <- "cite"
+colnames(a2.df)
+
+long.na.test2 <- gather(ab.df, variable_name, variable_value, -(V1)) %>%
+  drop_na() # much memory saved through this format
+
+object.size(long.na.test2)
+
+284463 / 478977
+
+test.table <- table(long.na.test[, 3])
+dim(test.table)
+test.table["self_neg5"]
+names(test.table)
+str(test.table)
+
+renewed <- spread(long.na.test, variable_name, variable_value, fill = NA)
+
+renewed[1,]
+renewed[1, "self.depdist.self.relation"]
