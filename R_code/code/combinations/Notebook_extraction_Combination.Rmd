@@ -338,9 +338,10 @@ v.list <- vector("list", sum(lengths(culled.output.list)))
 counter <- 1
 var.names <- NULL
 for (i in 1:2) { # Note well: This loop is truncated for testing.  The full loop will take a long time.
+  # The full loop will take seq_along(culled.output.list) its iteration variable
   
   var.holder <- culled.output.list[[i]]
-  # v.list <- vector("list", ncol(var.holder))
+  
   
   for (j in seq_len(ncol(var.holder))) {
     compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
@@ -368,8 +369,34 @@ rownames(com.variables.m) <- NULL # remove extraneous row names
 ```
 Notes:
 
-* This code block supplies the values for the new variables created by combination. The essence of the code block is a nested loop. The outter loop iterates through each element in **culled.output.list.**  Each of those elements contains a matrix with columns constituting combinations of attribute names. 
+* This code block supplies the values for the new variables created by combination. The essence of the code block is a nested loop. The outer loop iterates through each element in **culled.output.list.**  Each of those elements contains a matrix with columns constituting combinations of attribute names. 
+* The code **var.holder <- culled.output.list[[i]]** stores the one element at a time in the object **var.holder.**
+* The inner loop iterates through each column in the matrix stored in **var.holder.**
+* The code **compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-"))** creates new variable values and stores them in the object **compound.vars.**
 
+    - The **apply()** function applies its third argument to each row (because the second argument = 1) of the first argument, here **z**. Each row of the data frame **z** contains the attribute data for each word in the target test.
+    - The anonymous function **function(x) paste0(x[var.holder[, j]], collapse = "-")** creates the variable values as follows:
+    
+        + The function **paste0()** creates a  string from its input arguments.
+        + The input argument, supplied one row at a time by **apply(),** is a subset of the data frame **z.** 
+        + The particular subsetting applied to each row in given by the variable **var.holder[, j].** The object **var.holder** contains combinations of attribute names. 
+        + Columns in matrices can be accessed by name rather than column number. For example, **z[1, "cite"]** returns the value "Selections from Cicero De Officiis 1: s-1 w-1". 
+        + Thus, **var.holder[, j]** returns all the attribute names constituting a combination in a given column. The column number is selected by iteration variable **j.**
+        + Thus, when **var.holder[, j]** is used to index a row from **z**, it returns the values, for that row, of all columns whose names are contained in the referenced column of **var.holder.**
+        + These values are conjoined into a single string by **paste0**.
+        
+* These new combinatory variables, stored in the character vector **compound.vars** are converted to lower case character by **compound.vars <- tolower(compound.vars).**   This step is necessary so that random choices of capitalization don't create phantom variable values.
+* The results are then stored as an element in the list object **v.list,** via the code **v.list[[counter]] <- compound.vars.** Again the **counter** variable in the index of **v.list** inserts each set of results into a different element of the list and avoided data being over-written.
+* The code  **paste0(var.holder[, j], collapse = "\*")** creates a name for each new combined variables. Then **append(var.names, .)** adds the new names to the storage vector.
+
+    - The input **var.holder[, j]** returns all attribute names in a given column, so that **paste0()** may conjoin them into a string.
+
+* After the loops finish, the results are processed with **com.variables.m  <- do.call(cbind, v.list).** The function **do.call()** applies a function (here **cbind(),** which adds columns to a matrix). The second argument of **do.call** is a list of arguments that will be passed to the first argument.  Here the second argument, **v.list**, is a list of character vectors. 
+
+     - Each vector contains the number of elements equal to the number of words in the target XML file.
+     - Each element of the vector is a value of a new varuable made through combination. 
+     
+* The result of **do.call(cbind, v.list)** creates a matrix with each row corresponding to a word in the target XML file. Each column holds the data for a new variable.      
 
 
 ***

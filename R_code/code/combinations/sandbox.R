@@ -664,7 +664,7 @@ for (i in seq_along(output.list)) { # iterate through output.list
 names(culled.output.list) <- names(output.list) # add names to list elements
 
 #################
-i <- 15
+i <- 3
 dim(var.holder)
 
 v.list <- vector("list", sum(lengths(culled.output.list)))
@@ -673,30 +673,46 @@ var.names <- NULL
 for (i in 1:2) {
   
   var.holder <- culled.output.list[[i]]
-  # v.list <- vector("list", ncol(var.holder))
   
   
   
   
-  for (j in seq_len(ncol(var.holder))) {
-    compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
-      as.character()
-    
-    var.names  <- paste0(var.holder[, j], collapse = "*") %>%
-      append(var.names, .)
-    
-    compound.vars <- tolower(compound.vars) # convert to lower case
-    
-    v.list[[counter]] <- compound.vars
-    names(v.list[[counter]]) <- var.names
-    counter <- counter + 1
-    
-  }
+  system.time(
+    for (j in seq_len(ncol(var.holder))) {
+      compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
+        as.character()
+      
+      var.names  <- paste0(var.holder[, j], collapse = "*") %>%
+        append(var.names, .)
+      
+      compound.vars <- tolower(compound.vars) # convert to lower case
+      
+      v.list[[counter]] <- compound.vars
+      names(v.list[[counter]]) <- var.names
+      counter <- counter + 1
+      
+    }
+  )
   
 }
 
 
+
+
+
+j <- 1
+paste0(z[1,var.holder[, j]], collapse = "-")
+var.holder[, j]
+View(var.holder)
+
+compound.vars <- apply(z, 1, function(x) paste0(x[var.holder[, j]], collapse = "-")) %>%
+  as.character()
+
+
 com.variables.m  <- do.call(cbind, v.list) # make matrix containing new variables
+
+ttt.m <- do.call(cbind, v.list)
+View(ttt.m[1:10, 1:10])
 
 abc  <- do.call(cbind, v.list)
 ab <- temp.l[[1]]
